@@ -60,7 +60,7 @@ class BboxParams(Params):
             Default: `True`
     """
 
-    def __init__(
+     def __init__(
         self,
         format: str,
         label_fields: Optional[Sequence[str]] = None,
